@@ -471,7 +471,7 @@ def grupsaya():
 		os.mkdir('out')
 	except OSError:
 		pass
-os.system('clear')
+os.system('  42*"\033[1;96m="  ')
 	print logo
 	print 42*"\033[1;96m="
 	try:
