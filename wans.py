@@ -123,7 +123,7 @@ def tokenz():
 		zedd.close()
 		jalan ('\033[1;97mJANGAN LUPA FOLLOW AKUN FACEBOOK PRIBADI GUA YA :) ')
 		print '\033[1;97m[\033[1;39m✓\033[1;97m]\033[1;39m Alhamdulillah'
-		os.system('xdg-open  https://www.facebook.com/romi.rizal.58')
+		os.system('xdg-open https://www.facebook.com/wans.xgans.94')
 		bot_komen()
 	except KeyError:
 		print "\033[1;97m[\033[1;39m!\033[1;97m] \033[1;39mToken Salah !"
