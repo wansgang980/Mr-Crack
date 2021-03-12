@@ -1,5 +1,4 @@
-# Mr-Crack
+#Mr-Crack
 
-https://l.top4top.io/p_1897unbni0.jpg
+KENTOD IN PACAR AWOKAWOKK
 
-HY JAN LUPA BERKENTODD
